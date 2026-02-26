@@ -1,12 +1,17 @@
 
 import './App.css'
-import { Hero } from './components/home/Hero'
+import ListaPeopleflow from './components/cards/peopleflow/ListaPeopleflow'
+import ListaProblema from './components/cards/problema/ListaProblema'
+import ListaSolucao from './components/cards/solucao/ListaSolucao'
+
 
 function App() {
 
   return (
     <>
-      
+      <ListaProblema />
+      <ListaSolucao />
+      <ListaPeopleflow />
     </>
   )
 }
