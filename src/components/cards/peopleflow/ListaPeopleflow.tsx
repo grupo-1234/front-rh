@@ -66,7 +66,7 @@ function ListaPeopleflow() {
   }
 
   return (
-    <div id="beneficios" className="flex justify-center w-full my-20 px-6 bg-[#F8FAFC] py-20 border border-red-700">
+    <div id="beneficios" className="flex justify-center w-full px-6 bg-[#F8FAFC] pt-40 pb-40">
       <div className="container flex flex-col max-w-6xl">
 
         <div className="text-center mb-16">

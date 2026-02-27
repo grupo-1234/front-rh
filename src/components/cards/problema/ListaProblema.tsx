@@ -42,7 +42,7 @@ function ListaProblema() {
 
     return (
         <>
-            <div className="flex justify-center w-full my-20 px-6 bg-[#F8FAFC] py-20">
+            <div className="flex justify-center w-full px-6 bg-[#f8f8fc] py-30">
                 <div className="container flex flex-col max-w-6xl">
 
                     <div className="text-center mb-16">

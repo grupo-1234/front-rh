@@ -2,7 +2,7 @@ export default function Navbar() {
 
   return (
     <nav className="bg-[#0f172a] text-white w-full fixed top-0 z-50 left-0">
-    <div className=" w-full mx-auto py-8 flex justify-between items-center max-w-7xl px-2 sm:px-6 lg:px-8">
+    <div className=" w-full mx-auto py-2 flex justify-between items-center max-w-7xl px-2 sm:px-6 lg:px-8">
       
       <div className="py-4 flex justify-between items-center">
         <span className="text-xl font-bold mr-10"> <a href="#hero"> PeopleFlow </a> </span>

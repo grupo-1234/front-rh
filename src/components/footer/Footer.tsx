@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <>
-      <section className="bg-gradient-to-r from-green-600 to-blue-900 text-white text-center py-20 px-6">
+      <section className="bg-linear-to-r from-blue-900 via-emerald-800 to-blue-900 text-white text-center py-20 px-6">
         <h2 className="text-3xl md:text-4xl font-bold mb-4">
           Pronto para transformar seu RH?
         </h2>
@@ -10,7 +10,7 @@ export default function Footer() {
         </p>
 
         <div className="flex justify-center gap-4 flex-wrap">
-          <button className="bg-green-500 hover:bg-green-600 px-6 py-3 rounded-lg font-semibold transition">
+          <button className="bg-emerald-600 hover:bg-emerald-500 px-6 py-3 rounded-lg font-semibold transition">
             Começar Agora
           </button>
 
