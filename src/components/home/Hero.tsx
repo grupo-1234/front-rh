@@ -1,7 +1,11 @@
 import { Users, TrendingUp, ChevronRight, Check} from 'lucide-react';
 import imageRh from "../../assets/rh.jpg"
 
-export function Hero() {
+interface HeroProps {
+  onOpenModal: (titulo: string) => void;
+}
+
+export function Hero({ onOpenModal }: HeroProps) {
   return (
     <section className="relative bg-[#0f172a] text-white py-20 lg:py-32 overflow-hidden">
       <div id="hero" className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(circle, #ffffff 1px, transparent 1px)', backgroundSize: '30px 30px' }}></div>
@@ -19,11 +23,15 @@ export function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-8">
-            <button className="w-full sm:w-auto px-8 py-4 bg-emerald-500 hover:bg-emerald-600 text-white font-semibold rounded-lg flex items-center justify-center gap-2 transition-all">
+            <button 
+            onClick={() => onOpenModal("Comece seu teste grátis")}
+            className="w-full sm:w-auto px-8 py-4 bg-emerald-500 hover:bg-emerald-600 text-white font-semibold rounded-lg flex items-center justify-center gap-2 transition-all">
               Testar Gratuitamente
               <ChevronRight size={20} />
             </button>
-            <button className="w-full sm:w-auto px-8 py-4 bg-slate-800/50 hover:bg-slate-800 text-white font-semibold border border-slate-700 rounded-lg transition-all">
+            <button
+            onClick={() => onOpenModal("Falar com um Especialista")}
+            className="w-full sm:w-auto px-8 py-4 bg-slate-800/50 hover:bg-slate-800 text-white font-semibold border border-slate-700 rounded-lg transition-all">
               Falar com Especialista
             </button>
           </div>

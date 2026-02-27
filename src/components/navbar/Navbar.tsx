@@ -1,4 +1,8 @@
-export default function Navbar() {
+interface NavbarProps {
+  onOpenModal: (titulo: string) => void;
+}
+
+export default function Navbar({ onOpenModal }: NavbarProps) {
 
   return (
     <nav className="bg-[#0f172a] text-white w-full fixed top-0 z-50 left-0">
@@ -18,8 +22,9 @@ export default function Navbar() {
       
 
         <div className="">
-            <button className=
-            "bg-linear-to-r from-emerald-600 to-blue-900 hover:to-blue-900 hover:from-blue-900 px-8 py-4 text-sm font-bold text-white transition rounded-full cursor-pointer">
+            <button 
+            onClick={() => onOpenModal("Falar com um Especialista")}
+            className= "bg-linear-to-r from-emerald-600 to-blue-900 hover:to-blue-900 hover:from-blue-900 px-8 py-4 text-sm font-bold text-white transition rounded-full cursor-pointer">
                 Assine
             {/* <button className="bg-slate-900 px-8 py-3 text-sm font-bold text-white transition hover:bg-blue-900 rounded-3xl"> */}
             </button>
