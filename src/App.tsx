@@ -18,24 +18,24 @@ function App() {
   const [modalTitle, setModalTitle] = useState("")
 
   const abrirModal = (titulo: string) => {
-    setModalTitle(titulo)
-    setIsModalOpen(true)
-  }
+  setModalTitle(titulo);
+  setIsModalOpen(true);
+};
 
   const LandingPage = () => (
     <>
-      <Hero onOpenModal={() => abrirModal("Falar com Especialista")} />
+      <Hero onOpenModal= {abrirModal} />
       <ListaProblema />
       <ListaSolucao />
       <ListaPeopleflow />
-      <CardPrecos onOpenModal={() => abrirModal("Assinar Plano")} />
+      <CardPrecos onOpenModal = {abrirModal} />
       <ListaAvaliacao />
     </>
   )
 
   return (
     <BrowserRouter>
-      <Navbar onOpenModal={() => abrirModal("Assine Agora")} />
+      <Navbar onOpenModal={abrirModal} />
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/sobre-nos" element={<PageSobre />} />
