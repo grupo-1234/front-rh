@@ -1,4 +1,5 @@
 import { Users, TrendingUp, ChevronRight, Check} from 'lucide-react';
+import imageRh from "../../assets/rh.jpg"
 
 export function Hero() {
   return (
@@ -72,7 +73,7 @@ export function Hero() {
           </div>
 
           <img 
-            src="../src/assets/rh.jpg" 
+            src={imageRh} 
             alt="Dashboard PeopleFlow" 
             className="rounded-2xl border border-white/10 shadow-2xl"
           />
