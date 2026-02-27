@@ -8,6 +8,7 @@ import CardPrecos from '../components/cards/precos/CardPrecos';
 import { ListaAvaliacao } from '../components/cards/avalicao/ListaAvaliacao';
 import Footer from '../components/footer/Footer';
 import { ModalContato } from '../components/modal/ModalContato';
+import PageSobre from '../components/pageSobre/CardSobre';
 
 export default function LandingPage() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -28,6 +29,7 @@ export default function LandingPage() {
       <CardPrecos onOpenModal={() => abrirModal("Escolher Plano")} />
       <ListaAvaliacao />
       <Footer />
+      <PageSobre />
 
       <ModalContato 
         isOpen={isModalOpen} 

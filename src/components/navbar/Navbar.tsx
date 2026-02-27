@@ -1,3 +1,7 @@
+import { DiamondsFourIcon } from "@phosphor-icons/react";
+
+<DiamondsFourIcon size={32} />
+
 interface NavbarProps {
   onOpenModal: (titulo: string) => void;
 }
