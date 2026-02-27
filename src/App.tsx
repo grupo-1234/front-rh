@@ -8,6 +8,7 @@ import CardPrecos from './components/cards/precos/CardPrecos'
 import Footer from './components/footer/Footer'
 import { Hero } from './components/home/Hero'
 import Navbar from './components/navbar/Navbar'
+import CardSobre from './components/pageSobre/CardSobre'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <CardPrecos />
       <ListaAvaliacao />
       <Footer />
+      <CardSobre />
     </>
   )
 }
