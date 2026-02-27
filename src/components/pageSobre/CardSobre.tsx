@@ -12,14 +12,12 @@ function PageSobre() {
                     {/*Imagem */}
                     <div className="flex flex-col md:flex-row items-center gap-10 bg-white p-8 rounded-lg shadow-md">
 
-                        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg" alt="especialista" className="w-72 h-72 object-cover rounded-md" />
+                        <img src="./img/peopleflow.jpg" alt="logo" className="w-72 h-72 object-cover rounded-md" />
 
                         {/*Texto*/}
                         <div>
                             <p className="text-gray-600 mb-4 leading-relaxed">
-                                Meet our staff of experts who focus on a condimentum venenatis
-                                placerat libero. Proin blandit tincidunt pretium. Maecenas nec
-                                magna ac augue vulputate eu eget lorem.
+                                Do caos operacional à inteligência estratégica: a PeopleFlow automatiza seu RH para você focar no que realmente importa: pessoas
                             </p>
                         </div>
                     </div>
@@ -59,63 +57,74 @@ function PageSobre() {
 
                         {/*Alesson*/}
                         <div className="bg-white p-6 rounded-lg shadow-md flex items-center gap-6">
-                            <div className="bg-white p-6 rounded-lg shadow-md flex items-center gap-6">
                                 <img
                                     src="https://images.pexels.com/photos/30451074/pexels-photo-30451074.jpeg"
                                     alt="Alesson"
                                     className="w-24 h-24 object-cover rounded-md"
                                 />
-                            </div>
+                                <h1 className="text-2x1 font-semibold text-slate-900">Alesson Carlos</h1>
+                                <p>Desenvolvedor junior</p>
+                            
                         </div>
                     {/*Isaias*/}
                         <div className="bg-white p-6 rounded-lg shadow-md flex items-center gap-6">
-                            <div className="bg-white p-6 rounded-lg shadow-md flex items-center gap-6">
+                            
                                 <img
                                     src="https://images.pexels.com/photos/30451074/pexels-photo-30451074.jpeg"
                                     alt="Isaias"
                                     className="w-24 h-24 object-cover rounded-md"
                                 />
-                            </div>
+                                <h1 className="text-2x1 font-semibold text-slate-900">Isaias Roberto</h1>
+                                <p>Desenvolvedor pleno</p>
+                            
                         </div>
                     {/*Randerson*/}
                         <div className="bg-white p-6 rounded-lg shadow-md flex items-center gap-6">
-                            <div className="bg-white p-6 rounded-lg shadow-md flex items-center gap-6">
+                            
                                 <img
                                     src="https://images.pexels.com/photos/30451074/pexels-photo-30451074.jpeg"
                                     alt="Randerson"
                                     className="w-24 h-24 object-cover rounded-md"
                                 />
-                            </div>
+
+                                <h1 className="text-2x1 font-semibold text-slate-900">Randerson Henrique</h1>
+                                <p>Desenvolvedor Junior</p>
+                            
                         </div>
                     {/*Milena*/}
                         <div className="bg-white p-6 rounded-lg shadow-md flex items-center gap-6">
-                            <div className="bg-white p-6 rounded-lg shadow-md flex items-center gap-6">
+                            
                                 <img
                                     src="https://images.pexels.com/photos/30451074/pexels-photo-30451074.jpeg"
                                     alt="Milena"
                                     className="w-24 h-24 object-cover rounded-md"
                                 />
-                            </div>
+                                <h1 className="text-2x1 font-semibold text-slate-900">Milena Guerra</h1>
+                                <p>Desenvolvedora Junior</p>
+                            
                         </div>
                     {/*Larissa*/}
                         <div className="bg-white p-6 rounded-lg shadow-md flex items-center gap-6">
-                            <div className="bg-white p-6 rounded-lg shadow-md flex items-center gap-6">
                                 <img
                                     src="https://images.pexels.com/photos/30451074/pexels-photo-30451074.jpeg"
                                     alt="Larissa"
                                     className="w-24 h-24 object-cover rounded-md"
                                 />
-                            </div>
+                                <h1 className="text-2x1 font-semibold text-slate-900">Larissa de Souza</h1>
+                                <p>UIX Design</p>
+                            
                         </div>
                     {/*Rayane*/}
                         <div className="bg-white p-6 rounded-lg shadow-md flex items-center gap-6">
-                            <div className="bg-white p-6 rounded-lg shadow-md flex items-center gap-6">
                                 <img
                                     src="https://images.pexels.com/photos/30451074/pexels-photo-30451074.jpeg"
                                     alt="Rayane"
                                     className="w-24 h-24 object-cover rounded-md"
                                 />
-                            </div>
+
+                                <h1 className="text-2x1 font-semibold text-slate-900">Rayane Nogueira</h1>
+                                <p>Desenvolvedora Junior</p>
+                            
                         </div>
                     </div>
                 </div>
