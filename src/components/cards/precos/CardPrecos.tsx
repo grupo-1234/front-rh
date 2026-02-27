@@ -7,8 +7,6 @@ function CardPrecos({ onOpenModal }: HeroProps) {
     return (
         <div id="planos" className="min-h-screen bg-gray-100 flex flex-col items-center py-16 px-4">
 
-
-            {/* tiutlo*/}
             <div className="text-center mb-12 mt-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-[#374151] mb-4 tracking-tight">
                     Escolha o plano ideal para sua empresa
@@ -17,10 +15,8 @@ function CardPrecos({ onOpenModal }: HeroProps) {
                     Planos flexíveis que crescem com seu negócio
                 </p>
             </div>
-            {/*cards com precos - pai*/}
             <div className="flex flex-col lg:flex-row gap-8 w-full max-w-6x1 mx-auto justify-center items-center relative">
 
-                {/*Plano básico*/}
                 <div className="bg-[#FFFFFF] rounded-2xl shadow-sm border p-8 w-full max-w-sm">
                     <h2 className="text-2x1 font-semibold text-slate-900">Básico</h2>
                     <p className="text-gray-500 mt-2">Equipes pequenas</p>
@@ -46,7 +42,6 @@ function CardPrecos({ onOpenModal }: HeroProps) {
                 </div>
             
 
-            {/*Intermediario*/}
             <div className="bg-[#00AD73] rounded-2xl shadow-sm border p-8 w-full max-w-sm">
                 <h2 className="text-2x1 font-semibold text-white">Intermediario</h2>
                 <p className="text-white mt-2">Para empresas em crescimento</p>
@@ -76,7 +71,6 @@ function CardPrecos({ onOpenModal }: HeroProps) {
                 
             </div>
 
-            {/*Personalizado*/}
             <div className="bg-[#FFFFFF] rounded-2xl shadow-sm border p-8 w-full max-w-sm">
                 <h2 className="text-2x1 font-semibold text-slate-900">Enterprise</h2>
                 <p className="text-gray-500 mt-2">Para grandes organizações</p>

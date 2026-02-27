@@ -25,7 +25,7 @@ export default function Navbar({ onOpenModal }: NavbarProps) {
 
         <div className="">
             <button 
-            onClick={() => onOpenModal("Falar com um Especialista")}
+            onClick={() => onOpenModal("Assine Agora")}
             className= "bg-linear-to-r from-emerald-600 to-blue-900 hover:to-blue-900 hover:from-blue-900 px-8 py-4 text-sm font-bold text-white transition rounded-full cursor-pointer">
                 Assine
             {/* <button className="bg-slate-900 px-8 py-3 text-sm font-bold text-white transition hover:bg-blue-900 rounded-3xl"> */}
