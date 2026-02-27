@@ -1,7 +1,7 @@
 function PageSobre() {
 
     return (
-        <div className="w-full bg-gray-100">
+        <div className="w-full bg-gray-100 pt-18">
             {/*Seção equipe*/}
             <section className="w-full bg-blue-100 py-16 px-6">
                 <div className="max-w-6xl mx-auto">

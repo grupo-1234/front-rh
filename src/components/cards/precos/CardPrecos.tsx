@@ -40,7 +40,7 @@ function CardPrecos({ onOpenModal }: HeroProps) {
                   
                     <button
                     onClick={() => onOpenModal("Comece seu teste grátis")}
-                    className="mt-8 w-full bg-slate-900 text-white py-3 rounded-xl hover:bg-slate-800 transition">
+                    className="mt-8 w-full bg-slate-900 text-white py-3 rounded-xl hover:bg-slate-400 transition">
                         Começar agora
                     </button>
                 </div>
@@ -94,7 +94,7 @@ function CardPrecos({ onOpenModal }: HeroProps) {
                     </ul>
                     <button
                     onClick={() => onOpenModal("Comece seu teste grátis")}
-                    className="mt-8 w-full bg-slate-900 text-white py-3 rounded-xl hover:bg-slate-800 transition">
+                    className="mt-8 w-full bg-slate-900 text-white py-3 rounded-xl hover:bg-slate-400 transition">
                         Falar com vendas
                     </button>
                 </div>
