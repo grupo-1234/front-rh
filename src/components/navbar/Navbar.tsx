@@ -2,15 +2,17 @@ export default function Navbar() {
 
   return (
     <nav className="bg-[#0f172a] text-white w-full fixed top-0 z-50 left-0">
-    <div className=" w-full mx-auto py-8 flex justify-between items-center max-w-7xl px-2 sm:px-6 lg:px-8">
+    <div className=" w-full mx-auto py-2 flex justify-between items-center max-w-7xl px-2 sm:px-6 lg:px-8">
+      
       <div className="py-4 flex justify-between items-center">
-        <span className="text-xl font-bold mr-10"> PeopleFlow </span>
+        <span className="text-xl font-bold mr-10"> <a href="#hero"> PeopleFlow </a> </span>
+      
       <ul className="flex mx-auto gap-6 text-lg font-semibold">
-        <li>Home</li>
-        <li>Benefícios</li>
-        <li>Avaliações</li>
-        <li>Planos</li>
-        <li>Sobre nós</li>
+       <li> <a href="#hero"> Home </a> </li>
+        <li> <a href="#beneficios"> Benefícios </a> </li>
+        <li> <a href="#avaliacoes"> Avaliações </a> </li>
+        <li> <a href="#planos"> Planos </a> </li>
+        <li> <a href="#sobrenos"> Sobre nós </a> </li>
       </ul>
       </div>
       
