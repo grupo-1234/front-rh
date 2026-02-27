@@ -34,7 +34,7 @@ export function ListaAvaliacao() {
             <div id= "avaliacoes" className="container mx-auto max-w-7xl">
                 
                 <div className="text-center mb-16">
-                    <h2 className="text-4xl md:text-5xl font-extrabold text-[#0F172A] mb-6">
+                    <h2 className="text-3xl md:text-4xl font-bold text-[#374151] mb-4 tracking-tight">
                         Experiências de Sucesso
                     </h2>
                     <div className="h-2 w-24 bg-[#22C55E] mx-auto rounded-full"></div>

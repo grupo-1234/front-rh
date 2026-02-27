@@ -10,7 +10,7 @@ function CardPrecos({ onOpenModal }: HeroProps) {
 
             {/* tiutlo*/}
             <div className="text-center mb-12 mt-12">
-                <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#374151] mb-4 tracking-tight">
                     Escolha o plano ideal para sua empresa
                 </h2>
                 <p className="text-gray-500 mt-3 text-lg">
