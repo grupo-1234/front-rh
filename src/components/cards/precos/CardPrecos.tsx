@@ -5,11 +5,11 @@ interface HeroProps {
 function CardPrecos({ onOpenModal }: HeroProps) {
 
     return (
-        <div className="min-h-screen bg-gray-100 flex flex-col items-center py-16 px-4">
+        <div id="planos" className="min-h-screen bg-gray-100 flex flex-col items-center py-16 px-4">
 
 
             {/* tiutlo*/}
-            <div className="text-center mb-12">
+            <div className="text-center mb-12 mt-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
                     Escolha o plano ideal para sua empresa
                 </h2>
@@ -37,6 +37,7 @@ function CardPrecos({ onOpenModal }: HeroProps) {
                         <li>✔ Até 50 colaboradores</li>
                         <li>✔ Suporte por email</li>
                     </ul>
+                  
                     <button
                     onClick={() => onOpenModal("Comece seu teste grátis")}
                     className="mt-8 w-full bg-slate-900 text-white py-3 rounded-xl hover:bg-slate-800 transition">
@@ -62,6 +63,7 @@ function CardPrecos({ onOpenModal }: HeroProps) {
                         <li>✔ Até 200 colaboradores</li>
                         <li>✔ Suporte prioritario</li>
                     </ul>
+                  
                     <button
                     onClick={() => onOpenModal("Comece seu teste grátis")}
                     className="mt-8 w-full bg-[#FFFFFF] text-black py-3 rounded-xl hover:bg-slate-800 transition">

@@ -9,7 +9,7 @@ export default function Navbar({ onOpenModal }: NavbarProps) {
     <div className=" w-full mx-auto py-2 flex justify-between items-center max-w-7xl px-2 sm:px-6 lg:px-8">
       
       <div className="py-4 flex justify-between items-center">
-        <span className="text-xl font-bold mr-10"> <a href="#hero"> PeopleFlow </a> </span>
+        <span className="text-xl font-bold mr-30"> <a href="#hero"> PeopleFlow </a> </span>
       
       <ul className="flex mx-auto gap-6 text-lg font-semibold">
        <li> <a href="#hero"> Home </a> </li>
