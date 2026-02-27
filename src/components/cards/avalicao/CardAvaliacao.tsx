@@ -8,7 +8,7 @@ interface CardAvaliacaoProps {
 
 export function CardAvaliacao({ texto, nome, cargo, empresa, foto }: CardAvaliacaoProps) {
     return (
-        <div className="flex flex-col bg-[#FFFFFF] p-8 rounded-2xl shadow-lg border border-gray-100 h-full hover:border-[#2563EB] transition-all duration-300">
+        <div className="flex flex-col bg-[#FFFFFF] p-8 rounded-2xl shadow-lg border border-gray-100 h-full hover:border-[#2563EB] transition-all duration-300"> 
             
             <div className="text-[#16A34A] text-6xl mb-4 font-serif leading-none">“</div>
             

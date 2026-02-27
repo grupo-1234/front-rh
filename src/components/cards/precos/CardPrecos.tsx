@@ -66,7 +66,7 @@ function CardPrecos({ onOpenModal }: HeroProps) {
                   
                     <button
                     onClick={() => onOpenModal("Comece seu teste grátis")}
-                    className="mt-8 w-full bg-[#FFFFFF] text-black py-3 rounded-xl hover:bg-slate-800 transition">
+                    className="mt-8 w-full bg-[#FFFFFF] text-black py-3 rounded-xl hover:bg-slate-800 hover:text-white transition">
                         Começar agora
                     </button>
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-yellow-400 text-slate-900 px-4 py-1 rounded-full text-sm" data-fg-d3bl177="0.8:1.27388:/src/app/App.tsx:395:15:18658:179:e:div:t">Mais Popular</div>
