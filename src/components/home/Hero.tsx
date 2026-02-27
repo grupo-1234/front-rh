@@ -3,7 +3,7 @@ import { Users, TrendingUp, ChevronRight, Check} from 'lucide-react';
 export function Hero() {
   return (
     <section className="relative bg-[#0f172a] text-white py-20 lg:py-32 overflow-hidden">
-      <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(circle, #ffffff 1px, transparent 1px)', backgroundSize: '30px 30px' }}></div>
+      <div id="hero" className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(circle, #ffffff 1px, transparent 1px)', backgroundSize: '30px 30px' }}></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-16 items-center">
         

@@ -31,7 +31,7 @@ export function ListaAvaliacao() {
 
     return (
         <section className="bg-gray-50 py-24 px-4">
-            <div className="container mx-auto max-w-7xl">
+            <div id= "#avaliacoes" className="container mx-auto max-w-7xl">
                 
                 <div className="text-center mb-16">
                     <h2 className="text-4xl md:text-5xl font-extrabold text-[#0F172A] mb-6">
