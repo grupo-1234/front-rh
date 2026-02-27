@@ -1,11 +1,11 @@
 function CardPrecos() {
 
     return (
-        <div className="min-h-screen bg-gray-100 flex flex-col items-center py-16 px-4">
+        <div id="planos" className="min-h-screen bg-gray-100 flex flex-col items-center py-16 px-4">
 
 
             {/* tiutlo*/}
-            <div className="text-center mb-12">
+            <div className="text-center mb-12 mt-12">
                 <h2 className="text-3xl md:text-4xl font-bold text-slate-900">
                     Escolha o plano ideal para sua empresa
                 </h2>
@@ -33,7 +33,7 @@ function CardPrecos() {
                         <li>✔ Até 50 colaboradores</li>
                         <li>✔ Suporte por email</li>
                     </ul>
-                    <button className="mt-8 w-full bg-slate-900 text-white py-3 rounded-xl hover:bg-slate-800 transition">
+                    <button className="mt-8 w-full bg-slate-900 text-white py-3 rounded-xl hover:bg-slate-800 hover:text-white transition-colors">
                         Começar agora
                     </button>
                 </div>
@@ -56,7 +56,7 @@ function CardPrecos() {
                         <li>✔ Até 200 colaboradores</li>
                         <li>✔ Suporte prioritario</li>
                     </ul>
-                    <button className="mt-8 w-full bg-[#FFFFFF] text-black py-3 rounded-xl hover:bg-slate-800 transition">
+                    <button className="mt-8 w-full bg-[#FFFFFF] text-black py-3 rounded-xl hover:bg-slate-800 hover:text-white transition">
                         Começar agora
                     </button>
                 <div className="absolute -top-4 left-1/2 transform -translate-x-1/2 bg-yellow-400 text-slate-900 px-4 py-1 rounded-full text-sm" data-fg-d3bl177="0.8:1.27388:/src/app/App.tsx:395:15:18658:179:e:div:t">Mais Popular</div>

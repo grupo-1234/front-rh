@@ -1,15 +1,15 @@
 export default function Footer() {
   return (
     <>
-      <section className="bg-linear-to-r from-blue-900 via-emerald-800 to-blue-900 text-white text-center py-20 px-6">
-        <h2 className="text-3xl md:text-4xl font-bold mb-4">
+      <section className="bg-linear-to-r from-blue-900 via-emerald-800 to-blue-900 text-white text-center py-10 px-10">
+        <h2 className="text-2xl md:text-4xl font-bold mb-4 mt-4">
           Pronto para transformar seu RH?
         </h2>
-        <p className="mb-6 text-gray-200">
+        <p className="mb-6 text-gray-200 font-regular my-4 text-xl">
           Junte-se a mais de 1.000 empresas que já modernizaram sua gestão de pessoas
         </p>
 
-        <div className="flex justify-center gap-4 flex-wrap">
+        {/* <div className="flex justify-center gap-4 flex-wrap">
           <button className="bg-emerald-600 hover:bg-emerald-500 px-6 py-3 rounded-lg font-semibold transition">
             Começar Agora
           </button>
@@ -17,7 +17,7 @@ export default function Footer() {
           <button className="border border-gray-300 px-6 py-3 rounded-lg hover:bg-white hover:text-black transition">
             Agendar demonstração
           </button>
-        </div>
+        </div> */}
       </section>
 
       <footer className="bg-slate-900 text-gray-400 px-8 py-16">
