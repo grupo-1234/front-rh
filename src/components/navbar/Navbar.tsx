@@ -1,24 +1,29 @@
-import "./Navbar.css";
+export default function Navbar() {
 
-function Navbar() {
   return (
-    <nav className="navbar">
-      <div className="navbar-logo">
-        <h2>RH Digital</h2>
-      </div>
-
-      <ul className="navbar-links">
+    <nav className="bg-[#0f172a] text-white w-full fixed top-0 z-50 left-0">
+    <div className=" w-full mx-auto py-8 flex justify-between items-center max-w-7xl px-2 sm:px-6 lg:px-8">
+      <div className="py-4 flex justify-between items-center">
+        <span className="text-xl font-bold mr-10"> PeopleFlow </span>
+      <ul className="flex mx-auto gap-6 text-lg font-semibold">
         <li>Home</li>
-        <li>Vagas</li>
+        <li>Benefícios</li>
+        <li>Avaliações</li>
+        <li>Planos</li>
         <li>Sobre nós</li>
-        <li>Serviços</li>
       </ul>
+      </div>
+      
 
-      <button className="navbar-button">
-        Contate-nos
-      </button>
+        <div className="">
+            <button className=
+            "bg-linear-to-r from-emerald-600 to-blue-900 hover:to-blue-900 hover:from-blue-900 px-8 py-4 text-sm font-bold text-white transition rounded-full cursor-pointer">
+                Assine
+            {/* <button className="bg-slate-900 px-8 py-3 text-sm font-bold text-white transition hover:bg-blue-900 rounded-3xl"> */}
+            </button>
+        </div>
+    </div>
+    
     </nav>
   );
 }
-
-export default Navbar;
