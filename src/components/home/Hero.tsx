@@ -1,5 +1,8 @@
-import { Users, TrendingUp, ChevronRight, Check} from 'lucide-react';
-import imageRh from "../../assets/rh.jpg"
+import { Users, TrendingUp, ChevronRight, Check } from 'lucide-react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, EffectFade } from 'swiper/modules';
+import 'swiper/css';
+import 'swiper/css/effect-fade';
 
 interface HeroProps {
   onOpenModal: (titulo: string) => void;
@@ -7,7 +10,7 @@ interface HeroProps {
 
 export function Hero({ onOpenModal }: HeroProps) {
   return (
-    <section className="relative bg-[#0f172a] text-white py-20 lg:py-32 overflow-hidden">
+    <section className="relative bg-[#0f172a] text-white py-10 lg:py-32 overflow-hidden">
       <div id="hero" className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(circle, #ffffff 1px, transparent 1px)', backgroundSize: '30px 30px' }}></div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 grid lg:grid-cols-2 gap-16 items-center">
@@ -24,14 +27,16 @@ export function Hero({ onOpenModal }: HeroProps) {
 
           <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-8">
             <button 
-            onClick={() => onOpenModal("Comece seu teste grátis")}
-            className="w-full sm:w-auto px-8 py-4 bg-emerald-500 hover:bg-emerald-600 text-white font-semibold rounded-lg flex items-center justify-center gap-2 transition-all">
+              onClick={() => onOpenModal("Comece seu teste grátis")}
+              className="w-full sm:w-auto px-8 py-4 bg-emerald-500 hover:bg-emerald-600 text-white font-semibold rounded-lg flex items-center justify-center gap-2 transition-all shadow-lg shadow-emerald-500/20"
+            >
               Testar Gratuitamente
               <ChevronRight size={20} />
             </button>
             <button
-            onClick={() => onOpenModal("Falar com um Especialista")}
-            className="w-full sm:w-auto px-8 py-4 bg-slate-800/50 hover:bg-slate-800 text-white font-semibold border border-slate-700 rounded-lg transition-all">
+              onClick={() => onOpenModal("Falar com um Especialista")}
+              className="w-full sm:w-auto px-8 py-4 bg-slate-800/50 hover:bg-slate-800 text-white font-semibold border border-slate-700 rounded-lg transition-all"
+            >
               Falar com Especialista
             </button>
           </div>
@@ -48,7 +53,7 @@ export function Hero({ onOpenModal }: HeroProps) {
           </div>
         </div>
 
-        <div className="relative flex justify-center lg:justify-end">
+        <div className="relative flex justify-center lg:justify-end w-full max-w-xl lg:max-w-none mx-auto">
           
           <style>{`
             @keyframes float {
@@ -57,6 +62,10 @@ export function Hero({ onOpenModal }: HeroProps) {
             }
             .animate-float {
               animation: float 3s ease-in-out infinite;
+            }
+            .swiper {
+              width: 100%;
+              border-radius: 1rem;
             }
           `}</style>
 
@@ -80,11 +89,30 @@ export function Hero({ onOpenModal }: HeroProps) {
             </div>
           </div>
 
-          <img 
-            src={imageRh} 
-            alt="Dashboard PeopleFlow" 
-            className="rounded-2xl border border-white/10 shadow-2xl"
-          />
+          <div className="w-full h-[480px] overflow-hidden rounded-2xl border border-white/10 shadow-2xl">
+            <Swiper
+              modules={[Autoplay, EffectFade]}
+              effect="fade"
+              autoplay={{ delay: 4000, disableOnInteraction: false }}
+              loop={true}
+              className="mySwiper"
+            >
+              <SwiperSlide>
+                <img 
+                  src="https://i.imgur.com/oTEXCXW.png" 
+                  alt="Dashboard 1" 
+                  className="w-full h-full object-cover"
+                />
+              </SwiperSlide>
+              <SwiperSlide>
+                <img 
+                  src="https://i.imgur.com/nq5A3AK.jpg"
+                  alt="Equipe trabalhando" 
+                  className="w-full h-full object-cover"
+                />
+              </SwiperSlide>
+            </Swiper>
+          </div>
         </div>
       </div>
     </section>
