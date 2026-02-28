@@ -103,7 +103,6 @@ export function CardSobre() {
                     <p className="text-sm text-emerald-600 font-medium">{dev.cargo}</p>
                   </div>
                   
-                  {/* Ícones Sociais */}
                   <div className="flex gap-3">
                     <a 
                       href={dev.github} 
